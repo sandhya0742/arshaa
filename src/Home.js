@@ -8,6 +8,7 @@ import {
 import Cafteria from './Components/CafteriaComponent/components/Cafteria';
 import { Button} from 'react-bootstrap';
 import CafeButton from './Components/CafteriaComponent/components/CafeButton';
+import Login from './Components/LoginComponent/Login';
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
            <Routes>
            <Route path="/" element={<CafeButton />} />
 
-<Route path="/cafteria" element={<Cafteria />} />
+           <Route path="/cafteria" element={<Cafteria />} />
+           <Route path="/login" element={<Login />} />
 
 </Routes>
   </div>
@@ -24,4 +26,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Login(Home);

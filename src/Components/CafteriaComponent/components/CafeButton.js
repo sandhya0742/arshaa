@@ -5,6 +5,7 @@ const CafeButton = () => {
   return (
     <div>
         <Link to='/cafteria'><button>Cafteria</button></Link>
+        <Link to='/login'><button>Login</button></Link>
     </div>
   )
 }
