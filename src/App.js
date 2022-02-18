@@ -9,9 +9,10 @@ import Login from './Components/LoginComponent/Login';
 function App() {
   return (
     <div>
-<Login/>
-    </div>
-  );
-}
+<Home/>
 
+    </div>
+
+  )
+}
 export default App;
