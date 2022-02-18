@@ -3,12 +3,10 @@ import Menu from "./Menu";
 import Categories from "./Categories";
 import items from "./data";
 import logo from "./caf-logo.JPG";
-import '../UI/Cafteria.css';
+import "../UI/Cafteria.css";
 import { FaHome } from "react-icons/fa";
-import { BsFillArrowLeftSquareFill } from "react-icons/bs";
-import { Link } from 'react-router-dom'
 
-
+import { Link } from "react-router-dom";
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
@@ -29,12 +27,16 @@ const Cafteria = () => {
   return (
     <main>
       <section className="menu section">
-      <span className="left-arrow"><BsFillArrowLeftSquareFill/></span>
+
         <div className="title">
-          <img src={logo} alt="logo" className="logo" />
+          <img src={logo} alt="logo" className="logo" title="Back to home" />
           <h2>Menu List</h2>
           <div className="underline"></div>
-          <Link to='/home'><center className='home-icon'><FaHome/></center></Link>
+          <Link to="/home">
+            <center className="home-icon">
+              <FaHome />
+            </center>
+          </Link>
         </div>
         <Categories
           categories={categories}

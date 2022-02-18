@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 const CafeButton = () => {
   return (
+    <div className='main-home'>
     <React.Fragment>
     <h1 className="text-center text-danger text-capitalize my-" style={{'margin-top':'150px'}}>
         { " "} <b>Welcome to Arshaa </b>{" "} </h1><br/><br/>
@@ -33,6 +34,7 @@ const CafeButton = () => {
 </div>
 
 </React.Fragment>
+</div>
   )
 }
 

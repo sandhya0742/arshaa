@@ -1,6 +1,8 @@
-body{
-    background-color: rgb(249, 252, 252);
+.shadow-sm {
+    background-color: rgba(238, 238, 238,1.0);
+    opacity: 1;
 }
-.shadow-sm{
-    background-color: rgb(190, 192, 194);
+
+body{
+    background-color: white;
 }

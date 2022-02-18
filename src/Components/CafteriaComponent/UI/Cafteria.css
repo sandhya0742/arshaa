@@ -34,7 +34,11 @@ main{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
-
+.left-arrow{
+  margin-left: -230px;
+  color: #c59d5f;
+  font-size: larger;
+}
 .App-link {
   color: #61dafb;
 }

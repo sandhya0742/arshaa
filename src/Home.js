@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Cafteria from "./Components/CafteriaComponent/components/Cafteria";
 // import { Button} from 'react-bootstrap';
-import MainHome from "./Components/CafteriaComponent/components/MainHome";
+import MainHome from "./Components/MainHome";
 import Login from "./Components/LoginComponent/Login";
 import Park from "./parking-details/Park";
 import Data from "./Components/EmployeeDetails/Data";

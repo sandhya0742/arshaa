@@ -43,7 +43,7 @@ import { Link } from 'react-router-dom';
 
 
   return (
-    <body>
+    <body className='emp'>
     <div>
       <h2 className='head'>Employee Details </h2>
       <Link to ="/home"><button className='home' >Back To Home</button></Link>
