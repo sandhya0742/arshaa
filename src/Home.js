@@ -9,16 +9,19 @@ import Cafteria from "./Components/CafteriaComponent/components/Cafteria";
 import MainHome from "./Components/CafteriaComponent/components/MainHome";
 import Login from "./Components/LoginComponent/Login";
 import Park from "./parking-details/Park";
+import Data from "./EmployeeDetails/Data";
 
 const Home = () => {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Login />} />
+        
 
         <Route path="/cafteria" element={<Cafteria />} />
         <Route path="/mainhome" element={<MainHome />} />
         <Route path="/park" element={<Park/>}/>
+        <Route path="/employee" element={<Data/>}/>
       </Routes>
     </div>
   );

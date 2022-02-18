@@ -1,0 +1,9 @@
+.employee
+{
+    padding: 1rem;
+    background-color: #E7F4FE;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 5px;
+}
