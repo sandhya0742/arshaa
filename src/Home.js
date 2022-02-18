@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Cafteria from "./Components/CafteriaComponent/components/Cafteria";
 // import { Button} from 'react-bootstrap';
-import CafeButton from "./Components/CafteriaComponent/components/CafeButton";
+import MainHome from "./Components/CafteriaComponent/components/MainHome";
 import Login from "./Components/LoginComponent/Login";
 import Park from "./parking-details/Park";
 
@@ -17,7 +17,7 @@ const Home = () => {
         <Route path="/" element={<Login />} />
 
         <Route path="/cafteria" element={<Cafteria />} />
-        <Route path="/cafe" element={<CafeButton />} />
+        <Route path="/mainhome" element={<MainHome />} />
         <Route path="/park" element={<Park/>}/>
       </Routes>
     </div>

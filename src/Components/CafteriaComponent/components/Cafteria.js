@@ -32,7 +32,7 @@ const Cafteria = () => {
           <img src={logo} alt="logo" className="logo" />
           <h2>Menu List</h2>
           <div className="underline"></div>
-          <Link to='/cafe'><center className='home-icon'><FaHome/></center></Link>
+          <Link to='/mainhome'><center className='home-icon'><FaHome/></center></Link>
         </div>
         <Categories
           categories={categories}

@@ -23,7 +23,7 @@ const Login = () => {
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
                                  <br/>
-                            <Link to='/cafe'><Button variant="success btn-block" type="submit">
+                            <Link to='/mainhome'><Button variant="success btn-block" type="submit">
                                 Login
                             </Button></Link>
 
