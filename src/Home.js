@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+
     Routes,
     Route,
-    Link
+    // Link
 } from 'react-router-dom';
 import Cafteria from './Components/CafteriaComponent/components/Cafteria';
-import { Button} from 'react-bootstrap';
+// import { Button} from 'react-bootstrap';
 import CafeButton from './Components/CafteriaComponent/components/CafeButton';
 import Login from './Components/LoginComponent/Login';
 
