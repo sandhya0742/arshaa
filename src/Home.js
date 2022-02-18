@@ -10,20 +10,22 @@ import { Button} from 'react-bootstrap';
 import CafeButton from './Components/CafteriaComponent/components/CafeButton';
 import Login from './Components/LoginComponent/Login';
 
+
 const Home = () => {
   return (
   <div>
 
            <Routes>
-           <Route path="/" element={<CafeButton />} />
+           <Route path="/" element={<Login />} />
 
            <Route path="/cafteria" element={<Cafteria />} />
-           <Route path="/login" element={<Login />} />
-
+           <Route path="/cafe" element={<CafeButton />} />
+         
 </Routes>
+
   </div>
         
   )
 }
 
-export default Login(Home);
+export default Home;
