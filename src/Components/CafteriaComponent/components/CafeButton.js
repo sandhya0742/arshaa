@@ -26,7 +26,7 @@ const CafeButton = () => {
 <img src="./images/Parking.jpg" class="card-img-top" alt="..."/>
 <div class="card-body">
 <h5 class="card-title"><b>Parking Slot</b></h5>
-<a href="#" class="btn btn-primary">Parking Details</a>
+<Link to="/park"><a href="#" class="btn btn-primary">Parking Details</a></Link>
 </div>
 </div></div>
 </div>
