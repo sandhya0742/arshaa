@@ -46,7 +46,7 @@ import { Link } from 'react-router-dom';
     <body>
     <div>
       <h2 className='head'>Employee Details </h2>
-      <Link to ="/cafe"><button className='home' >Back To Home</button></Link>
+      <Link to ="/home"><button className='home' >Back To Home</button></Link>
       
 
       

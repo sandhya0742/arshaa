@@ -1,6 +1,6 @@
 import EmployeeDetails from "./EmployeeDetails";
 import "./Employee.css";
-import data from "../data.json";
+import data from "./data.json";
 
 const Employee = () => {
   return (

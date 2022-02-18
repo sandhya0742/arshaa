@@ -9,7 +9,7 @@ import Cafteria from "./Components/CafteriaComponent/components/Cafteria";
 import MainHome from "./Components/CafteriaComponent/components/MainHome";
 import Login from "./Components/LoginComponent/Login";
 import Park from "./parking-details/Park";
-import Data from "./EmployeeDetails/Data";
+import Data from "./Components/EmployeeDetails/Data";
 
 const Home = () => {
   return (
