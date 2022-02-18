@@ -12,7 +12,7 @@ const CafeButton = () => {
 <img src="./images/Employee.jpg" class="card-img-top" style={{'height':'310px'}} alt="..."/>
 <div class="card-body">
 <h5 class="card-title"><b>Employee List</b></h5>
-<a href="#" class="btn btn-primary">Employee Details</a>
+<Link to="/employee"><a href="#" class="btn btn-primary">Employee Details</a></Link>
 </div>
 </div></div>
 <div class="col-sm"><div class="card">
