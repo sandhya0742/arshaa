@@ -1,5 +1,7 @@
 import EmpParking from './parking_details';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { BsFillArrowLeftSquareFill } from "react-icons/bs";
 
 function Park() {
 
@@ -19,6 +21,7 @@ function Park() {
   return (      //an html function component
 
     <div className='parkng'>
+          <Link to ="/home"><BsFillArrowLeftSquareFill className='back-home-icon'>Home</BsFillArrowLeftSquareFill></Link>
     <div className='headng'><center><h2>EMPLOYEE'S PARKING DETAILS</h2></center>
       <EmpParking        // returns js code into html
       emp_id={parkings[0].emp_id}

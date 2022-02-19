@@ -7,6 +7,8 @@ import "../UI/Cafteria.css";
 import { FaHome } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
+import { BsFillArrowLeftSquareFill } from "react-icons/bs";
+
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
@@ -26,6 +28,7 @@ const Cafteria = () => {
   };
   return (
     <main>
+      <Link to ="/home"><BsFillArrowLeftSquareFill className='icon'>Home</BsFillArrowLeftSquareFill></Link>
       <section className="menu section">
 
         <div className="title">

@@ -30,11 +30,9 @@ const Login = () => {
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
               <br />
-              <Link to="/home">
-                <Button variant="success btn-block" type="submit">
+              <Link to="/home"> <Button variant="success btn-block" type="submit">
                   Login
-                </Button>
-              </Link>
+                </Button> </Link>
             </Form>
           </Col>
           <Col lg={7} md={3} sm={8} className="p-3 m-auto shadow-sm rounded-lg">

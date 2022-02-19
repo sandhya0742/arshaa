@@ -11,6 +11,13 @@ main{
   align-items: center;
 }
 
+.icon{
+  margin-right: 800px;
+    margin-top: 20px;
+    color: rgb(75, 39, 23);
+    font-size:xx-large;
+    margin-left: 100px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
